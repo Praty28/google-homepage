@@ -17,8 +17,8 @@ body {
 
 #searchbox {
    width: 70%;
-   
-   border: transparent;
+   /* border: transparent; */
+   grid-area: search-box;
 }
 
 .formsearch {
@@ -28,7 +28,7 @@ padding-top: 35px;
     text-align: center;
    display: grid;
    grid-template-columns: 50% 50%;
-   grid-template-areas: "search-box"
+   grid-template-areas: "search-box search-box"
                         "search-b feeling-b";
 }
 
@@ -63,4 +63,10 @@ max-width: 3%;
 
 }
 
+#search-b {
+    grid-area: search-b;
+}
+#feleing-b {
 
+    grid-area: feeling-b;
+}
