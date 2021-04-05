@@ -27,8 +27,11 @@ body {
 padding-top: 35px;
     text-align: center;
    display: grid;
-   grid-template-columns: 50% 50%;
+   grid-template:  1fr 1fr 1fr 1fr 1fr / 50% 50%;
    grid-template-areas: "search-box search-box"
+                        ". ."
+                        ". ."
+                        ". ."
                         "search-b feeling-b";
 }
 
@@ -65,8 +68,10 @@ max-width: 3%;
 
 #search-b {
     grid-area: search-b;
+    width: 50%;
 }
 #feleing-b {
 
     grid-area: feeling-b;
+    width: 50%;
 }
