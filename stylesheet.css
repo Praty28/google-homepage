@@ -19,8 +19,10 @@ body {
 
 #searchbox {
    width: 70%;
-   border: transparent;
+   border: none;
+   border-color: transparent;
    grid-area: search-box;
+   outline: none;
 }
 
 .formsearch {
@@ -77,12 +79,15 @@ max-width: 3%;
 #search-b {
     grid-area: search-b;
     width: 50%;
-    
+    padding: 10px;
+   border: none;
+   
        
 }
 #feleing-b {
 
     grid-area: feeling-b;
     width: 50%;
+    border: none;
     
 }
