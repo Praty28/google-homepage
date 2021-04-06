@@ -98,3 +98,22 @@ button:hover {
 
   transform: scale(1.1);
 }
+
+ul {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    background-color: rgba(27, 24, 24, 0.164) ;
+    left: 0px;
+    right: 0px;
+}
+
+li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
