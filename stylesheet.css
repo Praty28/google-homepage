@@ -19,7 +19,7 @@ body {
     /* position: absolute; */
    padding-top: 150px;
    
-   max-width: 200px;
+   max-width: 250px;
 
 }
 
@@ -29,7 +29,7 @@ body {
    border-color: transparent;
    grid-area: search-box;
    outline: none;
-   padding-left: 7px;
+   padding-left: 18px;
 }
 
 .formsearch {
@@ -67,7 +67,7 @@ max-width: 600px;
 #searchicon {
     z-index: 3;
 position: absolute;
-top: 8px;
+top: 7px;
 left: 1%;
 opacity: 0.4;
 padding-left: 3px;
@@ -79,7 +79,7 @@ width: auto;
     flex-direction: row;
     
     justify-content: center;
-    column-gap: 20px;
+    column-gap: 15px;
     
 }
 
@@ -103,10 +103,11 @@ width: auto;
     
 }
 
+
 button:hover {
 
-    box-shadow: 0px 0px 0px 1pt rgba(17, 17, 17, 0.185);  
-  
+    box-shadow: 0px 0px 0px 0.5pt rgba(17, 17, 17, 0.185);  
+    cursor: pointer;
 }
 
 ul{
