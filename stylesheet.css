@@ -1,15 +1,35 @@
 /* webkit-appearance: none; */
 
+/* =============
+ Main element 
+============= */
 body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: sans-serif;
     
    }
+/* ======= 
+Elements
+==========*/
 
 
+header {
+    
+    display: flex;
+    justify-content:flex-end;
+    align-content: center;   
+}
 
+#app {
+    margin-top: -3px;
+}
 
+#pic {
+    
+    margin-top: -7px;
+    border-radius: 50%;
+}
 #logo {
     display: block;
     margin-top: auto;
