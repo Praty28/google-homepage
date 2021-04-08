@@ -22,7 +22,13 @@ header {
 }
 
 #app {
-    margin-top: -3px;
+    margin-top: -7px;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+#app:hover {
+    box-shadow: 4px 1px 12px rgba(15, 14, 14, 0.13);
 }
 
 #pic {
@@ -30,6 +36,13 @@ header {
     margin-top: -7px;
     border-radius: 50%;
 }
+
+#pic:hover {
+    box-shadow: 0 0 0 2.5pt rgba(36, 33, 33, 0.164);
+}
+
+
+
 #logo {
     display: block;
     margin-top: auto;
